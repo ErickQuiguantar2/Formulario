@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Se define la codificación de caracteres y la configuración de la vista para dispositivos móviles -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> <!-- Título de la página en el navegador -->
 </head>
 <body>
+    <!-- Título principal de la página -->
     <h2>Promedio de notas en html y js</h2>
+
+    <!-- Instrucciones sobre el campo de entrada de las notas -->
     <p>nota 1: <input type="text" id="n1"></p>
     <p>nota 2: <input type="text" id="n2"></p>
-    <p>nota 2: <input type="text" id="n3"></p>
-    <p>nota 2: <input type="text" id="n4"></p>
-    <p>nota 2: <input type="text" id="n5"></p>
+    <p>nota 3: <input type="text" id="n3"></p>
+    <p>nota 4: <input type="text" id="n4"></p>
+    <p>nota 5: <input type="text" id="n5"></p>
     <p><input type="button" value="Calcular" onclick="Calcularpromedio()"></p>
+
+    <!-- Este es el lugar donde se mostrará el resultado del cálculo del promedio -->
     <p id="promedio"></p>
 </body>
-<script src="./formulario.js">
-</script>
+
+<!-- Se enlaza el archivo JavaScript externo donde está definida la lógica para calcular el promedio -->
+<script src="./formulario.js"></script>
 </html>
